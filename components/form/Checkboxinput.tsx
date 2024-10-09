@@ -8,7 +8,7 @@ type CheckboxInputProps = {
   defaultChecked?: boolean
 }
 
-function Checkboxinput({
+function CheckboxInput({
   name,
   label,
   defaultChecked = false,
@@ -25,4 +25,4 @@ function Checkboxinput({
     </div>
   )
 }
-export default Checkboxinput
+export default CheckboxInput
